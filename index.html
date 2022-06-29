@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Pomodoro's Erick</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__barra contenedor">
+            <img class="header__logo" src="img/POMODORO_LOGO.png" alt="Logo De Pomodoro's">
+            <h1 class="header__titulo">Pomodoro Timer</h1>
+        </div>
+    </header>
+    <main class="contador contenedor">
+        <p class="contador__minutes">25:00</p>
+
+        <p class="contador__mas">Agregar Tarea</p>
+
+        <form>
+            <input type="text" name="tarea" id="tarea" placeholder="Investigación de Mercado" class="contador__input">
+            <input type="submit" value="Agregar" class="agregar btn">
+        </form>
+    </main>
+    <section class="lista">
+        <div class="lista__tareas">
+            <div class="div__tareas  bg-rojo">
+                <p class="tareas">Investigación de Mercado</p>
+                <div class="tomates">
+                    <img src="img/tomate.png" alt="Tomato Pomodoro" class="tomate">
+                    <img src="img/tomate.png" alt="Tomato Pomodoro" class="tomate">
+                    <img src="img/tomate.png" alt="Tomato Pomodoro" class="tomate">
+                </div>
+                <div class="acciones">
+                    <a class="aceptar">
+                        <img src="img/aceptar.png" alt="Cerca">
+                    </a class="aceptar">
+                    <a class="aceptar cerrar">
+                        <img src="img/cerca.png" alt="Cerca">
+                    </a class="aceptar">
+                </div>
+            </div>
+            <div class="div__tareas  bg-verde">
+                <p class="tareas">Diseño de Colores</p>
+                <p class="tareas fin">Finalizado</p>
+            </div>
+            <div class="div__tareas  bg-verde">
+                <p class="tareas">Diseño de Colores</p>
+                <p class="tareas fin">Finalizado</p>
+            </div>
+            <div class="div__tareas  bg-verde">
+                <p class="tareas">Diseño de Colores</p>
+                <p class="tareas fin">Finalizado</p>
+            </div>
+            <div class="div__tareas  bg-verde">
+                <p class="tareas">Diseño de Colores</p>
+                <p class="tareas fin">Finalizado</p>
+            </div>
+            <div class="div__tareas  bg-verde">
+                <p class="tareas">Diseño de Colores</p>
+                <p class="tareas fin">Finalizado</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
